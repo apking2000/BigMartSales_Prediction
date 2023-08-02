@@ -135,8 +135,8 @@ from sklearn.metrics import mean_absolute_error
 print("mean_absolute_error of ytrain,ytrain_pred:",mean_absolute_error(ytrain,ytrain_pred))
 print("mean_absolute_error of ytest,ytest_pred:",mean_absolute_error(ytest,ytest_pred))
 
-print("Accuracy while predicting xtrain data:",lmodel.score(xtrain,ytrain))
-print("Accuracy while predicting xtest data:",lmodel.score(xtest,ytest))
+# print("Accuracy while predicting xtrain data:",lmodel.score(xtrain,ytrain))
+# print("Accuracy while predicting xtest data:",lmodel.score(xtest,ytest))
 
 def predict_sales(Item_Weight,Item_Visibility,Item_MRP,Outlet_Identifier,Years,Item_Fat_Content,
                   Item_Type,Item_Identifier,Outlet_Size,Outlet_Location_Type,Outlet_Type):
